@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family:sans-serif;
+}
+body{
+	background: url("Login_bg_lg.png") repeat-x;
+	background-color: #006EB7;
+
+    overflow: hidden
+}
+
+.husc-login{
+	display: flex;
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;  
+}
+.husc-lay-image{
+	width:650px
+}
+
+.text-center{
+	text-align:center;
+}
+
+.husc-login-logo{
+	margin-top:50px;
+}
+.husc-login-logo a{
+	color: #337ab7;
+    text-decoration: none;
+    background-color:transparent;
+}
+.husc-login-logo img{
+	width: 112px;
+    height: 112px;
+}
+.husc-login-image{
+	margin-top: 16px;
+}
+
+.husc-login-image img{
+	vertical-align: middle;
+}
+.husc-lay-login{
+	width:350px;
+}
+.husc-form-login {
+    width: 275px;
+    border: 5px solid #6bb9f0;
+    background: #f7f7f7;
+    padding: 15px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 110px;
+    position: relative;
+} 
+.husc-form-login img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+.form-login-heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #006eb7;
+    margin-bottom: 20px;
+}
+.form-group {
+	display:flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.form-group .label {
+  /*   display: inline-block;
+    max-width: 100%; */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group__lable {
+	margin-bottom: 10px;
+}
+
+.input-lg {
+    height: 28px;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline:none;
+}
+.input-lg:focus{
+	border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+.form-button{
+	margin: 20px auto;
+	display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border: 1px solid #ccc; 
+}
+.form-button:hover{
+	color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+	cursor: pointer;
+}
+footer {
+    padding-top:25px;
+    color: #fff;
+}
+.footer-contact{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 16px;
+}
+.footer-contact p{
+	margin:0 0 8.5px;
+	color: #fff;
+}
+.footer-contact p a{
+	text-decoration: none;
+	
+} 
+
+
+

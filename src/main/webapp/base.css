@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	background: #f1f1f1;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999999;
+}
+
+img {
+	max-height: 240px;
+}
+
+ 
+/* Custom button */
+
+.btn {
+	width: 100%;
+}
+
+.btn-50{
+	width:50%!important;
+}
+
+
+.padding-left {
+	padding-left: 40px !important;
+}
+
+.col-2 {
+	padding: 0;
+}
+
+
+
+
+

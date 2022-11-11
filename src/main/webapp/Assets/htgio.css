@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+a.bg-danger {
+	pointer-events: none;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.icon_refund {
+	font-size: 18px;
+}
+
+.continute_purchase a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.continute_purchase_text {
+	color: #FFC107;
+}
+
+.soluong {
+	width: 45px;
+}
+
+.btn-icon {
+	outline: none;
+	border: none;
+	background-color: #E5E5E5;
+}
+
+.btn-small
+{
+	width: 100px!important;
+}
+
+/* .btn-icon:hover {
+	
+	outline: none;
+	box-shadow: #D8D8D8;
+} */
+
+.icon-delete {
+	font-size: 20px;
+	color: #DC3545;
+}
+
+.icon-delete:hover {
+	color: red !important;
+}
